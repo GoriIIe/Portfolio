@@ -1,0 +1,23 @@
+@import "./settings";
+@import "./components/navigation";
+@import "./components/lien";
+@import "./pages/home";
+@import "./pages/project";
+@import "./pages/contact";
+@import "./pages/skills";
+
+body {
+	background-color: $color-2;
+	color: $white;
+}
+.purple {
+	color: $color-1;
+}
+
+.container {
+	width: 1080px;
+	margin: 0 auto;
+}
+.banner {
+	background-color: $color-1;
+}

@@ -1,0 +1,50 @@
+.contact {
+	height: 100vh;
+
+	form {
+		display: flex;
+		flex-direction: column;
+		width: 600px;
+		margin: 50px auto;
+		padding: 20px;
+		animation-name: transition;
+		animation-duration: 1s;
+
+		input {
+			padding: 8px 12px;
+			margin-bottom: 1rem;
+			border: 2px solid white;
+			border-radius: 10px;
+		}
+		textarea {
+			font-family: $font-1;
+			padding: 8px 12px;
+			margin-bottom: 1rem;
+			height: 200px;
+			min-height: 40px;
+			max-width: 100%;
+			min-width: 100%;
+			border: 2px solid white;
+			border-radius: 10px;
+		}
+		.submit {
+			width: 30%;
+			margin: 0 auto;
+			padding: 5px 15px;
+			font-size: 18px;
+			font-weight: bold;
+			color: $white;
+			background-color: $color-1;
+			text-transform: uppercase;
+			border: 2px solid $white;
+			border-radius: 10px;
+			cursor: pointer;
+
+			&:hover {
+				color: $color-1;
+				background-color: $white;
+				transition: 0.3s;
+			}
+		}
+	}
+}

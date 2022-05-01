@@ -1,0 +1,77 @@
+.project {
+	height: 100vh;
+
+	main {
+		display: block;
+		animation-name: transition;
+		animation-duration: 1s;
+
+		h1 {
+			font-size: 3rem;
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		article {
+			display: flex;
+			justify-content: center;
+			flex-direction: row;
+			margin: 50px auto;
+			width: 800px;
+
+			.img {
+				width: 50%;
+			}
+
+			img {
+				width: 500px;
+				margin-left: 3rem;
+			}
+
+			h3 {
+				font-size: 2rem;
+			}
+
+			ul {
+				display: flex;
+				margin: 15px 0;
+				li {
+					font-style: bold;
+					background-color: rgb(150, 150, 150);
+					color: $color-2;
+					padding: 3px 6px;
+					margin: 2px;
+				}
+			}
+
+			p {
+				line-height: 1.5;
+				font-size: 1rem;
+			}
+			ul {
+				padding: 0;
+				margin: 0;
+
+				a {
+					display: inline-block;
+
+					margin: 20px 0;
+					margin-right: 5px;
+					padding: 5px 15px;
+					font-size: 18px;
+					font-weight: bold;
+					color: $color-1;
+					text-transform: uppercase;
+					border: 2px solid $color-1;
+					cursor: pointer;
+
+					&:hover {
+						color: white;
+						background-color: $color-1;
+						transition: 0.3s;
+					}
+				}
+			}
+		}
+	}
+}

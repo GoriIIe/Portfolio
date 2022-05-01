@@ -1,0 +1,21 @@
+.home {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	main {
+		animation-name: transition;
+		animation-duration: 1s;
+
+		h1 {
+			font-size: 3rem;
+		}
+		.navigation {
+			text-align: left;
+			animation-name: transition;
+			animation-duration: 3s;
+		}
+	}
+}

@@ -1,0 +1,36 @@
+.navigation {
+	margin: 50px auto;
+	padding: 50px 0;
+	text-align: center;
+
+	ul {
+		padding: 0;
+		margin: 0;
+
+		a {
+			display: inline-block;
+
+			margin: 2px;
+			padding: 10px 50px;
+			font-size: 18px;
+			font-weight: bold;
+			color: $color-1;
+			text-transform: uppercase;
+			border: 3px solid $color-1;
+			cursor: pointer;
+
+			&:hover {
+				color: white;
+				background-color: $color-1;
+				transition: 0.3s;
+			}
+		}
+	}
+}
+
+.nav-active {
+	background-color: $color-1;
+	li {
+		color: $white;
+	}
+}
