@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.90c3b0d4.css",
+    "main.js": "/Portfolio/static/js/main.cddfb842.js",
+    "static/media/veville.png": "/Portfolio/static/media/veville.ae85629d61186500554a.png",
+    "index.html": "/Portfolio/index.html",
+    "main.90c3b0d4.css.map": "/Portfolio/static/css/main.90c3b0d4.css.map",
+    "main.cddfb842.js.map": "/Portfolio/static/js/main.cddfb842.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90c3b0d4.css",
+    "static/js/main.cddfb842.js"
+  ]
+}
