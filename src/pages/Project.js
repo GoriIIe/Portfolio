@@ -29,7 +29,7 @@ const Project = () => {
 								Site
 							</a>
 
-							<a href="#" target="_blank">
+							<a href="https://github.com/IliesRimani/Portfolio" target="_blank">
 								Code Source
 							</a>
 						</ul>
